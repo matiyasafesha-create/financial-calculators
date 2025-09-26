@@ -3,7 +3,8 @@ package com.pluralsight;
 import java.util.Scanner;
 
 public class Callingmycalculators {
-    public static void choosecalculator () {
+    public static void main(String[] args) {
+        {
         Scanner scanner = new Scanner(System.in);
 
 
@@ -92,8 +93,5 @@ public class Callingmycalculators {
             System.out.println("Error Input!! Try Again Please !!!! ");
 
     }
-    public static void main(String[] args) {
-        choosecalculator();
-
 }
 }
